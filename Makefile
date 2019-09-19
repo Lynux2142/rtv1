@@ -6,7 +6,7 @@
 #    By: lguiller <lguiller@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/01/16 12:18:12 by lguiller          #+#    #+#              #
-#    Updated: 2019/09/06 16:00:51 by lguiller         ###   ########.fr        #
+#    Updated: 2019/09/19 16:35:05 by lguiller         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -77,7 +77,7 @@ _CUT		= "\033[k"
 ##   TARGETS    ##
 ##################
 
-.PHONY: all title libft minilibx libvect create_dir clean fclean re norme
+.PHONY: all launch clean fclean re norme title
 .SILENT:
 
 all: launch
