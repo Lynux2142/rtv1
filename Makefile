@@ -6,7 +6,7 @@
 #    By: lguiller <lguiller@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/01/16 12:18:12 by lguiller          #+#    #+#              #
-#    Updated: 2019/09/19 16:35:05 by lguiller         ###   ########.fr        #
+#    Updated: 2019/10/01 10:37:59 by lguiller         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -86,7 +86,7 @@ launch: title
 	$(MAKE) $(LIBFT)
 	$(MAKE) $(LIBVECT)
 	$(MAKE) $(MINILIBX)
-	echo $(_CLEAR)$(_YELLOW)"\nbuilding - "$(_GREEN)$(NAME)$(_END)
+	echo $(_CLEAR)$(_YELLOW)"building - "$(_GREEN)$(NAME)$(_END)
 	$(MAKE) $(NAME)
 	echo $(_GREEN)"\nDone."$(_END)$(_SHOW_CURS)
 
